@@ -1,4 +1,4 @@
-# Android9 ADB Shell Password 保護
+# ADB Shell Password 保護
 
 開発用途向けの簡易 **ADB shell 制限機構**です。
 `/system/bin/sh` をラップすることで **ADB shell 実行時にパスワード制御を追加**します。
