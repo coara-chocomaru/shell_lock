@@ -99,7 +99,7 @@ chcon u:object_r:shell_exec:s0 /system/bin/xh
 以下の URL から `sh` をダウンロードします。
 
 ```
-(https://github.com/coara-chocomaru/shell_lock/releases/download/test/sh)
+https://github.com/coara-chocomaru/shell_lock/releases/download/test/sh
 ```
 
 ダウンロードした `sh` を配置します。
