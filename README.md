@@ -36,7 +36,7 @@
 
 ## 1. system.img を編集
 
-端末の `system.img` を展開して編集します。
+端末の `system.img` を編集します。
 
 ---
 
