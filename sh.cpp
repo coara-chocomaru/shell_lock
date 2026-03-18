@@ -26,6 +26,11 @@ int main(int argc, char **argv) {
 
     setenv("TERM", "xterm-256color", 1);
     chdir("/");
+    if (is_adbd && !isatty(0)) {
+        printf("Error: Non-interactive adb shell commands are blocked for security.\n");
+        printf("Use 'adb shell' (interactive) and enter password instead.\n");
+        exit(1);
+    }
 
     if (is_adbd && isatty(0)) {
         int skip_password = 0;
